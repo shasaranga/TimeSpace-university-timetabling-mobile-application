@@ -7,8 +7,7 @@
 
 
 ## 1. Mobile Application Features
-**<U>GENERAL FEATURES
-</U>**
+**<U>GENERAL FEATURES</U>**
 
 - **Login**
 
