@@ -80,6 +80,8 @@
 **Login View** 
 
 
+<img src="readMeResources/login.gif" alt="Login"
+	title="Project Graphical Representation" width="305" height="505" />
 
 1. **Search Student Timetable**
 
