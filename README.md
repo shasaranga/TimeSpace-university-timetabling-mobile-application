@@ -77,11 +77,15 @@
 
 ## 2. Mobile Application Overview
 
-**Login View** 
+1. **Login View** 
 
 
-<img src="readMeResources/login.gif" alt="Login"
+
+    <img src="readMeResources/login.gif" alt="Login"
 	title="Project Graphical Representation" width="305" height="505" />
 
-1. **Search Student Timetable**
+2. **Search Student Timetable**
 
+
+    <img src="readMeResources/searchStudentTimetable.gif" alt="Login"
+	title="Project Graphical Representation" width="305" height="505" />
