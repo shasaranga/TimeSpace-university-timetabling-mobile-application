@@ -13,13 +13,17 @@
 
 - **Logout**
 
-**<U>STUDENT</U>**
+**<U>STUDENT
+</U>**
+- **Search Student Timetable**
 
 - **Search Student Timetable**
 
-- **Search Lecturer Timetable**
+   
+    
+**<U>LECTURER
+</U>**
 
-**<U>LECTURER</U>**
 
 - **Search Lecturer Timetable**
 
@@ -31,8 +35,9 @@
 - **Change / Delete Booking**
 
 
-**<U>ADMINISTRATOR</U>**
 
+**<U>ADMINISTRATOR
+</U>**
 
 - **Search Lecturer Timetable**
 
@@ -57,20 +62,17 @@
 
 - **Manage Badges**
 
-
-    - **Add New Badge**
-
-
-    - **Edit / Delete a Badge**
-
+    o Add New Badge
+    
+    o Edit / Delete a Badge
+    
 
 - **Manage Classrooms**
 
+    o Add New Classroom
+    
+    o Edit / Delete a Classroom
 
-    - **Add New Classroom**
-
-
-    - **Edit / Delete a Classroom**
 
 
 ## 2. Mobile Application Overview
