@@ -79,13 +79,22 @@
 
 1. **Login View** 
 
-
-
     <img src="readMeResources/login.gif" alt="Login"
 	title="Project Graphical Representation" width="305" height="505" />
 
 2. **Search Student Timetable**
 
-
     <img src="readMeResources/searchStudentTimetable.gif" alt="Login"
 	title="Project Graphical Representation" width="305" height="505" />
+
+3. **Manage Course (Admin Feature)** 
+
+    * Add New Course
+    
+        <img src="readMeResources/AddCourse.gif" alt="Add Course"
+    	title="Add Course" width="305" height="505" />
+    
+    * Edit / Delete a Course
+    
+        <img src="readMeResources/ViewEditDeleteCourse.gif" alt="View/Edit/Delete Course"
+    	title="View/Edit/Delete a Course" width="305" height="505" />
