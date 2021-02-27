@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient2"
+    tools:context=".AddNewBadgeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/white"
+        android:id ="@+id/ToolbarAddNewBadge">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ToolbarAddNewBadge"
+        android:layout_marginTop="71dp"
+        app:srcCompat="@drawable/logo3" />
+
+    <Spinner
+        android:id="@+id/allocatedCourseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo2"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="#11000000"
+        android:hint="Select Course"
+        android:textColor="#ffff"
+        android:textColorHint="@color/cardview_light_background" />
+    <EditText
+        android:id="@+id/newBadgeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/allocatedCourseName"
+        android:layout_alignLeft="@+id/allocatedCourseName"
+        android:layout_alignStart="@+id/allocatedCourseName"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:hint="New Badge Name"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:padding="10dp"
+        />
+    <EditText
+        android:id="@+id/newBadgeYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newBadgeName"
+        android:layout_alignLeft="@+id/newBadgeName"
+        android:layout_alignStart="@+id/newBadgeName"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:hint="Badge Year"
+        android:textSize="20sp"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/addBadgeButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newBadgeYear"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/rounded_button"
+        android:text="Add Badge"
+        android:textColor="#ffff" />
+
+</RelativeLayout>

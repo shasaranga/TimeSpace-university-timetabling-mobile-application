@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient2"
+    tools:context=".AddNewCourseActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/white"
+        android:id ="@+id/ToolbarAddNewClassroom">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ToolbarAddNewClassroom"
+        android:layout_marginTop="71dp"
+        app:srcCompat="@drawable/logo3" />
+
+
+    <EditText
+        android:id="@+id/newClassroomName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo2"
+        android:layout_alignLeft="@+id/logo2"
+        android:layout_alignStart="@+id/logo2"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:hint="Classroom Name"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:padding="10dp"
+        />
+    <EditText
+        android:id="@+id/classroomFloorLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newClassroomName"
+        android:layout_alignLeft="@+id/newClassroomName"
+        android:layout_alignStart="@+id/newClassroomName"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:hint="Floor Level"
+        android:textSize="20sp"
+        android:padding="10dp"
+        />
+    <CheckBox
+        android:id="@+id/isAllocatedForCourseModule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/classroomFloorLevel"
+        android:layout_alignLeft="@+id/classroomFloorLevel"
+        android:layout_alignStart="@+id/classroomFloorLevel"
+        android:layout_marginTop="30dp"
+        android:buttonTint="@color/white"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text=" Is Allocated For a Course Module"
+        />
+    <Button
+        android:id="@+id/addClassroomButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/isAllocatedForCourseModule"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/rounded_button"
+        android:text="Add Classroom"
+        android:textColor="#ffff" />
+
+</RelativeLayout>

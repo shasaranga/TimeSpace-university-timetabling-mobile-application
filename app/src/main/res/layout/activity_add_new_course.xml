@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient2"
+    tools:context=".AddNewCourseActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/white"
+        android:id ="@+id/ToolbarAddNewCourse">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ToolbarAddNewCourse"
+        android:layout_marginTop="71dp"
+        app:srcCompat="@drawable/logo3" />
+
+
+    <EditText
+        android:id="@+id/newCourseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo2"
+        android:layout_alignLeft="@+id/logo2"
+        android:layout_alignStart="@+id/logo2"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:hint="New Course Name"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:padding="10dp"
+        />
+    <EditText
+        android:id="@+id/courseField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newCourseName"
+        android:layout_alignLeft="@+id/newCourseName"
+        android:layout_alignStart="@+id/newCourseName"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:hint="Course Field"
+        android:textSize="20sp"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/addCourseButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/courseField"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/rounded_button"
+        android:text="Add Course"
+        android:textColor="#ffff" />
+
+</RelativeLayout>

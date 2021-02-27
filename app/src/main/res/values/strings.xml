@@ -1,0 +1,187 @@
+<resources>
+    <string name="app_name">StudentTimetable</string>
+    <string-array name="LecturerOptions">
+        <item> Search Lecturer Timetable </item>
+        <item> Search Student Timetable </item>
+        <item> Book a Classroom </item>
+        <item> Change / Delete Booking </item>
+    </string-array>
+
+    <string-array name="LecturerOptionsDescription">
+        <item> Enables to search for lecturer timetable </item>
+        <item> Enables to search for student timetable</item>
+        <item> Enables to reserve a classroom </item>
+        <item> Manage the classroom reservations </item>
+    </string-array>
+    <string-array name="StudentOptions">
+        <item> Search Lecturer Timetable </item>
+        <item> Search Student Timetable </item>
+    </string-array>
+    <string-array name="StudentOptionsDescription">
+        <item> Enables to search for lecturer timetable </item>
+        <item> Enables to search for student timetable</item>
+    </string-array>
+
+    <string-array name="AdminOptions">
+        <item> Search Lecturer Timetable </item>
+        <item> Search Student Timetable </item>
+        <item> Manage Courses </item>
+        <item> Manage Badges </item>
+        <item> Manage Classrooms </item>
+    </string-array>
+    <string-array name="AdminOptionsDescription">
+        <item> Enables to search for lecturer timetable </item>
+        <item> Enables to search for student timetable</item>
+        <item> Enables to manage courses</item>
+        <item> Enables to manage badges</item>
+        <item> Enables to manage classrooms</item>
+    </string-array>
+
+    <string-array name="AdminManageCourseSubOptions">
+        <item> Add New Course </item>
+        <item> Add New Module </item>
+        <item> Edit / Delete a Course </item>
+        <item> Edit / Delete a Module </item>
+    </string-array>
+    <string-array name="AdminManageCourseSubOptionsDescription">
+        <item> Enables to add a new course</item>
+        <item> Enables to add a new module</item>
+        <item> Enables to edit / delete a course</item>
+        <item> Enables to edit / delete a module</item>
+    </string-array>
+
+    <string-array name="AdminManageBadgeSubOptions">
+        <item> Add New Badge </item>
+        <item> Edit / Delete a Badge </item>
+    </string-array>
+    <string-array name="AdminManageBadgeSubOptionsDescription">
+        <item> Enables to add a new badge</item>
+        <item> Enables to edit / delete a badge</item>
+    </string-array>
+    <string-array name="AdminManageClassroomsSubOptions">
+        <item> Add New Classroom </item>
+        <item> Edit / Delete a Classroom </item>
+    </string-array>
+    <string-array name="AdminManageClassroomsSubOptionsDescription">
+        <item> Enables to add a new classroom</item>
+        <item> Enables to edit / delete a classroom</item>
+    </string-array>
+    <string-array name="Week">
+        <item> Monday </item>
+        <item> Tuesday </item>
+        <item> Wednesday </item>
+        <item> Thursday </item>
+        <item> Friday </item>
+        <item> Saturday </item>
+    </string-array>
+
+    <string-array name="Monday">
+        <item>Mixed Signal Design</item>
+        <item>Analog Wave Propogation</item>
+        <item>Break</item>
+        <item>CT2 Lab - A1\nMSD Lab - A2</item>
+        <item>Break</item>
+        <item>Cluster Elective</item>
+        <item>Cluster Elective Lab/Tut</item>
+    </string-array>
+
+    <string-array name="Tuesday">
+        <item>Computer Communication Networks</item>
+        <item>Communication Theory - 2</item>
+        <item>Break</item>
+        <item>Computer Communication Networks</item>
+        <item>Mixed Signal Design</item>
+        <item>Break</item>
+        <item> CT2 Lab - A4\nMSD Lab - A1</item>
+    </string-array>
+
+    <string-array name="Wednesday">
+        <item>Antenna and Wave Propagation</item>
+        <item>Computer Communication Networks</item>
+        <item>Break</item>
+        <item>Cluster Elective</item>
+        <item>Department Elective</item>
+        <item>Break</item>
+        <item> AWP Tutorial</item>
+    </string-array>
+
+    <string-array name="Thursday">
+        <item>Antenna and Wave Propagation </item>
+        <item>Communication Theory - 2</item>
+        <item>Break</item>
+        <item>Cluster Elective</item>
+        <item>Department Elective</item>
+        <item>Break</item>
+        <item> CT2 Lab - A2\nMSD Lab - A3</item>
+    </string-array>
+
+    <string-array name="Friday">
+        <item> CT2 Lab - A3\nMSD Lab - A4</item>
+        <item>Break</item>
+        <item>Mixed Signal Design</item>
+        <item>Communication Theory - 2</item>
+        <item>Break</item>
+        <item>Department Elective Tut</item>
+    </string-array>
+
+    <string-array name="Saturday">
+        <item>Self Study</item>
+        <item>Break</item>
+        <item>Self Study</item>
+    </string-array>
+
+    <string-array name="time1">
+        <item>8:55AM - 9:50AM</item>
+        <item>9:50AM - 10:45AM</item>
+        <item>10:45AM - 11:15AM</item>
+        <item>11:15AM - 1:05PM</item>
+        <item>1:05PM - 2:00PM</item>
+        <item>2:00PM - 2:55PM</item>
+        <item>2:55PM - 4:45PM</item>
+    </string-array>
+
+    <string-array name="time2">
+        <item>8:55AM - 9:50AM</item>
+        <item>9:50AM - 10:45AM</item>
+        <item>10:45AM - 11:15AM</item>
+        <item>11:15AM - 12:10PM</item>
+        <item>12:10PM - 1:05PM</item>
+        <item>1:05PM - 2:00PM</item>
+        <item>2:00PM - 3:50PM</item>
+    </string-array>
+
+    <string-array name="time3">
+        <item>8:55AM - 9:50AM</item>
+        <item>9:50AM - 10:45AM</item>
+        <item>10:45AM - 11:15AM</item>
+        <item>11:15AM - 12:10PM</item>
+        <item>12:10PM - 1:05PM</item>
+        <item>1:05PM - 2:00PM</item>
+        <item>2:00PM - 3:50PM</item>
+    </string-array>
+
+    <string-array name="time4">
+        <item>8:55AM - 9:50AM</item>
+        <item>9:50AM - 10:45AM</item>
+        <item>10:45AM - 11:15AM</item>
+        <item>11:15AM - 12:10PM</item>
+        <item>12:10PM - 1:05PM</item>
+        <item>1:05PM - 2:00PM</item>
+        <item>2:00PM - 3:50PM</item>
+    </string-array>
+
+    <string-array name="time5">
+        <item>8:55AM - 10:45AM</item>
+        <item>10:45AM - 11:15AM</item>
+        <item>11:15AM - 12:10PM</item>
+        <item>12:10PM - 1:05PM</item>
+        <item>1:05PM - 2:00PM</item>
+        <item>2:00PM - 3:50PM</item>
+    </string-array>
+
+    <string-array name="time6">
+        <item>8:55AM - 10:45AM</item>
+        <item>10:45AM - 11:15AM</item>
+        <item>11:15AM - 1:05PM</item>
+    </string-array>
+</resources>

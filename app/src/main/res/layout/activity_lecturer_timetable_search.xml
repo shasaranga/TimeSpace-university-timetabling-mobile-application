@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient2"
+    tools:context=".TimetableSearchActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/white"
+        android:id ="@+id/ToolbarLecturerSearchTimetable">
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ToolbarLecturerSearchTimetable"
+        android:layout_marginTop="71dp"
+        app:srcCompat="@drawable/logo3" />
+
+    <Spinner
+        android:id="@+id/lecturerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo2"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="#11000000"
+        android:hint="Select Lecturer"
+        android:textColor="#ffff"
+        android:textColorHint="@color/cardview_light_background" />
+
+
+    <Button
+        android:id="@+id/lecturerTimetableSearch"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lecturerName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_button"
+        android:text="Search"
+        android:textColor="#ffff" />
+
+
+
+
+
+</RelativeLayout>

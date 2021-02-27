@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient2"
+    tools:context=".TimetableSearchActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/white"
+        android:id ="@+id/ToolbarSearchStudentTimetable">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/fragment_container2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
+       android:layout_below="@+id/ToolbarSearchStudentTimetable"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        app:srcCompat="@drawable/logo3" />
+
+    <Spinner
+        android:id="@+id/courseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo2"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="#11000000"
+        android:hint="Select Course"
+        android:textColor="#ffff"
+        android:textColorHint="@color/cardview_light_background" />
+    <Spinner
+        android:id="@+id/badgeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/courseName"
+        android:layout_alignLeft="@+id/courseName"
+        android:layout_alignStart="@+id/courseName"
+        android:background="#11000000"
+        android:hint="Select Badge"
+        android:textColor="#ffff"
+        android:textColorHint="@color/cardview_light_background" />
+
+
+
+    <Button
+        android:id="@+id/timetableSearch"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/badgeName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_button"
+        android:text="Search"
+        android:textColor="#ffff" />
+
+</RelativeLayout>

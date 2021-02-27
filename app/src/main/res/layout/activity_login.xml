@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient2"
+    tools:context=".LoginActivity">
+
+
+    <FrameLayout
+        android:id="@+id/fragment_container1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        app:srcCompat="@drawable/logo3" />
+
+    <EditText
+        android:id="@+id/email2"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/logo2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/cardview_light_background"
+        android:textSize="16dp"
+        android:textColor="#ffff"/>
+
+    <EditText
+        android:id="@+id/pass2"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="38dp"
+        android:background="#11000000"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:textSize="16dp"
+        android:textColorHint= "@color/cardview_light_background"
+        android:singleLine="false"
+        android:layout_below="@+id/email2"
+        android:layout_alignLeft="@+id/email2"
+        android:layout_alignStart="@+id/email2"
+        android:textColor="#ffff"/>
+
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/rounded_button"
+        android:text="Login"
+        android:textColor="#ffff" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/RegisterLink2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+
+<!--        android:layout_below="@+id/Login"-->
+<!--        android:layout_alignStart="@+id/Login"-->
+<!--        android:layout_alignLeft="@+id/Login"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginStart="108dp"-->
+<!--        android:layout_marginLeft="108dp"-->
+<!--        android:layout_marginTop="22dp"-->
+<!--        android:text="Register here"-->
+<!--        android:textColor="#ffff" />-->
+
+
+
+</RelativeLayout>

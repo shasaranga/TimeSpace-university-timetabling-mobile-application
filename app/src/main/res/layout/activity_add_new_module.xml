@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient2"
+    tools:context=".AddNewModuleActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/white"
+        android:id ="@+id/ToolbarAddNewModule">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ToolbarAddNewModule"
+        android:layout_marginTop="71dp"
+        app:srcCompat="@drawable/logo3" />
+    <Spinner
+        android:id="@+id/courseNameNewModule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo2"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="#11000000"
+        android:hint="Select Course"
+        android:textColor="#ffff"
+        android:textColorHint="@color/cardview_light_background" />
+
+
+    <EditText
+        android:id="@+id/newModuleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/courseNameNewModule"
+        android:layout_alignLeft="@+id/courseNameNewModule"
+        android:layout_alignStart="@+id/courseNameNewModule"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:hint="New Module Name"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:padding="10dp"
+        />
+    <EditText
+        android:id="@+id/moduleDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newModuleName"
+        android:layout_alignLeft="@+id/newModuleName"
+        android:layout_alignStart="@+id/newModuleName"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:hint="Brief Description"
+        android:textSize="20sp"
+        android:padding="10dp"
+        />
+    <Spinner
+        android:id="@+id/assignModuleTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/moduleDescription"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="#11000000"
+        android:hint="Assign Module to"
+        android:textColor="#ffff"
+        android:textColorHint="@color/cardview_light_background" />
+
+    <Spinner
+        android:id="@+id/assignClassForModule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/assignModuleTo"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="#11000000"
+        android:hint="Assign Classroom for Module"
+        android:textColor="#ffff"
+        android:textColorHint="@color/cardview_light_background" />
+    <Button
+        android:id="@+id/addModuleButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/assignClassForModule"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/rounded_button"
+        android:text="Add Module"
+        android:textColor="#ffff" />
+
+</RelativeLayout>

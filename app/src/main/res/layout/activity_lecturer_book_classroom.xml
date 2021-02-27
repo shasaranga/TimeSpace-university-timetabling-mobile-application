@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient2"
+    tools:context=".LecturerBookClassroom">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/white"
+        android:id ="@+id/ToolbarLecturerBookClassRoom">
+
+    </androidx.appcompat.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/logo2"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/ToolbarLecturerBookClassRoom"
+            android:layout_marginTop="71dp"
+            app:srcCompat="@drawable/logo3" />
+
+        <Spinner
+            android:id="@+id/courseNameBooking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo2"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:background="#11000000"
+            android:hint="Select Course"
+            android:textColor="#ffff"
+            android:textColorHint="@color/cardview_light_background" />
+        <Spinner
+        android:id="@+id/badgeNameBooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/courseNameBooking"
+        android:layout_alignLeft="@+id/courseNameBooking"
+        android:layout_alignStart="@+id/courseNameBooking"
+        android:background="#11000000"
+        android:hint="Select Badge"
+        android:textColor="#ffff"
+        android:textColorHint="@color/cardview_light_background" />
+
+    <Spinner
+        android:id="@+id/classroom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/badgeNameBooking"
+        android:layout_alignLeft="@+id/badgeNameBooking"
+        android:layout_alignStart="@+id/badgeNameBooking"
+        android:background="#11000000"
+        android:hint="Select Classroom"
+        android:textColor="#ffff"
+        android:textColorHint="@color/cardview_light_background" />
+    <EditText
+        android:id="@+id/startDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/classroom"
+        android:layout_alignLeft="@+id/classroom"
+        android:layout_alignStart="@+id/classroom"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:hint="Enter Date"
+        android:textSize="20sp"
+        android:padding="10dp"
+        />
+
+    <Spinner
+        android:id="@+id/duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/startDate"
+        android:layout_alignLeft="@+id/startDate"
+        android:layout_alignStart="@+id/startDate"
+        android:background="#11000000"
+        android:hint="Select Duration"
+        android:textColor="#ffff"
+        android:textColorHint="@color/cardview_light_background" />
+    <Button
+        android:id="@+id/bookButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/duration"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/rounded_button"
+        android:text="Book"
+        android:textColor="#ffff" />
+
+</RelativeLayout>
